@@ -34,4 +34,4 @@ Due to the fact that face extraction is a necessary step in all deep forgery pro
 - Quantity: 6802 images
 - Method: Face-Attribute-Editing-StyleGAN3——text2stylegan——[Face-Attribute-Editing-StyleGAN3](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3)
 ## 4. Download
-
+https://drive.google.com/drive/folders/1kuOdfNtGVX92xwF2l0mDWcpRcHVyFEkf?usp=sharing
