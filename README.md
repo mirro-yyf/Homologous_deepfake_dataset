@@ -27,22 +27,22 @@ We collected a total of 100 interview videos of different characters, including 
 Due to the fact that face extraction is a necessary step in all deep forgery processes, we also provide a source face video that only contains the face part. We use the MTCNN face detection algorithm to crop the face from the source face video with a time length of 15 seconds to form a new source face video, and set the resolution of all new source face videos to 350 × 350.
 ### 3.3 Fake video
 #### 3.3.1 swap_video
-The concept of face exchange: Face exchange requires two different faces as raw materials, namely the source face and the target face. There has been no unified academic consensus on the definition of the source face and the target face. In our dataset, we define the source face as the face that provides facial identity, and the target face as the face that provides expression and background, that is to say, We replaced the identity of the source face with the target face, and the exchanged face has a different identity compared to the target face, with all other information remaining the same.
-Quantity: 100 videos
-Method: SwapFace[Swapface](https://swapface.org/#/home)
-Naming format: target-face_ Source-face
+- Concept: Face exchange requires two different faces as raw materials, namely the source face and the target face. There has been no unified academic consensus on the definition of the source face and the target face. In our dataset, we define the source face as the face that provides facial identity, and the target face as the face that provides expression and background, that is to say, We replaced the identity of the source face with the target face, and the exchanged face has a different identity compared to the target face, with all other information remaining the same.
+- Quantity: 100 videos
+- Method: SwapFace[Swapface](https://swapface.org/#/home)
+- Naming format: target-face_ Source-face
 #### 3.3.2 avatarify_video
-Concept: Given a target face avatar to be driven, and then a segment of the source face, providing driving actions for the target face to be driven.
-Quantity: 100 videos
-Method: ICCV2023-MCNET[ICCV2023-MCNET](https://github.com/harlanhong/ICCV2023-MCNET)
-Naming format: target-face_ Source-face
+- Concept: Given a target face avatar to be driven, and then a segment of the source face, providing driving actions for the target face to be driven.
+- Quantity: 100 videos
+- Method: ICCV2023-MCNET[ICCV2023-MCNET](https://github.com/harlanhong/ICCV2023-MCNET)
+- Naming format: target-face_ Source-face
 #### 3.3.3 edit_video
-Concept: Given a facial image, edit the hair color, beard, baldness, age, gender, and makeup of the given face. In our dataset, we edited the age and hair color attributes of the source facial video separately, with an editing factor of 2.0.
-Quantity: 200 videos, with 100 videos for age editors and 100 videos for hair color editors each
-Method: StyleGANEX[StyleGANEX](https://github.com/williamyang1991/StyleGANEX?tab=readme-ov-file)
+- Concept: Given a facial image, edit the hair color, beard, baldness, age, gender, and makeup of the given face. In our dataset, we edited the age and hair color attributes of the source facial video separately, with an editing factor of 2.0.
+- Quantity: 200 videos, with 100 videos for age editors and 100 videos for hair color editors each
+- Method: StyleGANEX[StyleGANEX](https://github.com/williamyang1991/StyleGANEX?tab=readme-ov-file)
 #### 3.3.4 GAN_images
-Concept: Using a large number of real face images to train a latent space that conforms to the distribution of faces, randomly selecting a random vector from this latent space, and finally generating a face image through deformation upsampling operation.
-Quantity: 6802 images
-Method: Face-Attribute-Editing-StyleGAN3——text2stylegan【[Face-Attribute-Editing-StyleGAN3](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3)】
+- Concept: Using a large number of real face images to train a latent space that conforms to the distribution of faces, randomly selecting a random vector from this latent space, and finally generating a face image through deformation upsampling operation.
+- Quantity: 6802 images
+- Method: Face-Attribute-Editing-StyleGAN3——text2stylegan【[Face-Attribute-Editing-StyleGAN3](https://github.com/MingtaoGuo/Face-Attribute-Editing-StyleGAN3)】
 ## 4. Download
 
