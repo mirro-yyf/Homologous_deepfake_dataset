@@ -1,5 +1,8 @@
 # Homologous_facedataset
 A self built small-scale, high-quality, and diverse deepfake dataset.
+## Production Unit: Xidian University
+## Laboratory: Modern Image Processing Lab
+Research interests: intelligent image processing, intelligent video analysis, research and application of Beidou satellite navigation and positioning algorithms.
 ## 1. The original intention of dataset creation
 Due to the poor performance of the forgery methods used in existing large-scale facial datasets in the later fusion stage, the quality of the generated forgery facial videos/images is low, and even there are obvious visual artifacts, which reduces the difficulty of deep forgery detection and makes it impossible to test the true performance of deep forgery detectors. In order to further promote the development of deep forgery detection technology, we have constructed a new dataset of forged faces called Homologous_facedataset.
 ## 2. The contribution of this dataset
