@@ -3,7 +3,7 @@ A self built small-scale, high-quality, and diverse deepfake dataset.
 
 **Production Unit**: Xidian University, Modern Image Processing Lab
 
-**Dataset project**：https://github.com/mirro-yyf/Homologous_facedataset
+**Dataset project**：https://github.com/mirro-yyf/Homologous_deepfake_dataset
 ## 1. The contribution of this dataset
 1. Provided for the first time a facial dataset for Chinese people;
 2. Provided attribute editing facial video data for the first time.
