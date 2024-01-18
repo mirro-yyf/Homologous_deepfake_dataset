@@ -5,8 +5,8 @@ A self built small-scale, high-quality, and diverse deepfake dataset.
 
 **Dataset project**：https://github.com/mirro-yyf/Homologous_deepfake_dataset
 ## 1. The contribution of this dataset
-1. Provided for the first time a facial dataset for Chinese people;
-2. Provided attribute editing facial video data for the first time.
+- Provided for the first time a facial dataset for Chinese people;
+- Provided attribute editing facial video data for the first time.
 ## 2. Introduction
 The Homologous_deepfake dataset covers four types of deepfake images/videos: full-face generation, attribute editing, expression driven, and face swap. Among them, full-face generation provides 6802 fake images, and attribute editing provides 200 fake videos, 100 fake videos for expression driven, and 100 fake videos for face swap. All faces are Chinese.
 ### 3. Overview of Dataset Catalog:
