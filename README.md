@@ -42,3 +42,6 @@ Due to the fact that face extraction is a necessary step in all deep forgery pro
 Baidu Netdisk: 
 
 Google Drive: https://drive.google.com/file/d/1y9KEtJqxVsE8AxMl-LyLeJe5AtSBbBtA/view?usp=drive_link
+## 6. Technical Support
+e-mail: 13759792638@163.com
+QQ: 84489770
